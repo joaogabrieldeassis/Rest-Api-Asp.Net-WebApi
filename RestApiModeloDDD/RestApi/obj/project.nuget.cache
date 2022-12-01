@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HXSkczsBli501FH9CrasQ1rabKuVhMDmZtvbllUevsWQ3T5f8kLzo2yv5fHLS3vUbs1Zfnvu90AuyVT92yLgDg==",
+  "dgSpecHash": "rUz09zjjC5S34UPIafrHu4qzoynE/P/kKC9qivDEG2hZekUKG97nM7EArHW3XF/Db6u+x7wyalvRbneVCNCpPg==",
   "success": true,
-  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\RestApi.csproj",
+  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\RestApi.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

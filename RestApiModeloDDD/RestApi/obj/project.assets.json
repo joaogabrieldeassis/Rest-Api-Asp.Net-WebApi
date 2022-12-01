@@ -230,9 +230,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\RestApi.csproj",
-      "projectName": "RestApi",
-      "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\RestApi.csproj",
+      "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\RestApi.Services.csproj",
+      "projectName": "RestApi.Services",
+      "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\RestApi.Services.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
       "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiModeloDDD\\RestApi\\obj\\",
       "projectStyle": "PackageReference",
