@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\testeWebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj": {}
+    "C:\\Rest-Api-Asp.Net-WebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj": {}
   },
   "projects": {
-    "C:\\testeWebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj": {
+    "C:\\Rest-Api-Asp.Net-WebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\testeWebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj",
+        "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj",
         "projectName": "TesteWebApiTwo",
-        "projectPath": "C:\\testeWebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj",
+        "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\TesteWebApiTwo\\TesteWebApiTwo\\TesteWebApiTwo.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\testeWebApi\\TesteWebApiTwo\\TesteWebApiTwo\\obj\\",
+        "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\TesteWebApiTwo\\TesteWebApiTwo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,6 +66,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
