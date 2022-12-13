@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fZauEIMTmvbHjtcH53JkhcHEZ5SarbHkdbZbLq9e03c=",
+  "Source": "DevIo.Api",
+  "BasePath": "_content/DevIo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
