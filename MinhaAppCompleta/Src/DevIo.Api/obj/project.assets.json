@@ -88,6 +88,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DevIo.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DevIo.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevIo.Business.dll": {}
+        }
+      },
+      "DevIo.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DevIo.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevIo.Data.dll": {}
+        }
       }
     }
   },
@@ -216,10 +236,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "DevIo.Business/1.0.0": {
+      "type": "project",
+      "path": "../DevIo.Business/DevIo.Business.csproj",
+      "msbuildProject": "../DevIo.Business/DevIo.Business.csproj"
+    },
+    "DevIo.Data/1.0.0": {
+      "type": "project",
+      "path": "../DevIo.Data/DevIo.Data.csproj",
+      "msbuildProject": "../DevIo.Data/DevIo.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DevIo.Business >= 1.0.0",
+      "DevIo.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -230,11 +262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\src\\DevIo.Api\\DevIo.Api.csproj",
+      "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Api\\DevIo.Api.csproj",
       "projectName": "DevIo.Api",
-      "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\src\\DevIo.Api\\DevIo.Api.csproj",
+      "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Api\\DevIo.Api.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\src\\DevIo.Api\\obj\\",
+      "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -253,7 +285,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Business\\DevIo.Business.csproj": {
+              "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Business\\DevIo.Business.csproj"
+            },
+            "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Data\\DevIo.Data.csproj": {
+              "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Data\\DevIo.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

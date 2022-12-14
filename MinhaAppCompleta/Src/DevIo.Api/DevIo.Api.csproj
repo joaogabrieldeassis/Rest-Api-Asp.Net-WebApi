@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DevIo.Business\DevIo.Business.csproj" />
+    <ProjectReference Include="..\DevIo.Data\DevIo.Data.csproj" />
+  </ItemGroup>
+
 </Project>

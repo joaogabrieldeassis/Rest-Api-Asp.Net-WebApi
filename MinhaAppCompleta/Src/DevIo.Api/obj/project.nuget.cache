@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e+j9nZ3mr/hxWxMaUpyMCg45HF0aLKs7iVtGG5LkWcQ9AiLStO7GPWSTYFZ7xMzhZxaA21Lhb9drjtS38zGJOQ==",
+  "dgSpecHash": "CDeYEI3Z0bG7Zj5y5R1C5GavSgWTIq0PBK4w5m1hxc1uGWTvHimpBkr341VqkTIMczHDlWuFmwyEZA3QdQ4BBA==",
   "success": true,
-  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\src\\DevIo.Api\\DevIo.Api.csproj",
+  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\MinhaAppCompleta\\Src\\DevIo.Api\\DevIo.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
