@@ -96,3 +96,13 @@ C:\Rest-Api-Asp.Net-WebApi\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Microsoft
 C:\Rest-Api-Asp.Net-WebApi\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Rest-Api-Asp.Net-WebApi\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Rest-Api-Asp.Net-WebApi\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.csproj.AssemblyReference.cache
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.AssemblyInfoInputs.cache
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.AssemblyInfo.cs
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.csproj.CoreCompileInputs.cache
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.dll
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\refint\RestApi.dll
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.pdb

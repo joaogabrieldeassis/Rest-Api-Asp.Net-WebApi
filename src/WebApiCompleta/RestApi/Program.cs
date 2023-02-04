@@ -4,6 +4,8 @@ using Dev.Bussines.Notificacoes;
 using Dev.Bussines.Service;
 using Dev.Data.Context;
 using Dev.Data.Repository;
+using DevIO.Api.Extensions;
+using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -40,6 +42,8 @@ builder.Services.Configure<AppSettings>(appSettigns);
 
 var appsSettings = appSettigns.Get<AppSettings>();
 var key = Encoding.ASCII.GetBytes(appsSettings.Secret);
+
+
 
 builder.Services.AddAuthentication(x =>
 {
@@ -101,7 +105,7 @@ static WebApplicationBuilder ConfigurarInjecaoDeDependencia(WebApplicationBuilde
     builder.Services.AddScoped<IFornecedorService, FornecedorService>();
     builder.Services.AddScoped<IProdutoService, ProdutoService>();
     builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-    builder.Services.AddScoped<IUSer, AspNetUser>();
+    builder.Services.AddScoped<IUser, AspNetUser>();
     return builder;
 }
 
