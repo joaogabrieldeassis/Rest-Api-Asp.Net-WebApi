@@ -1,5 +1,5 @@
 Este projeto vai acompanhar o meu desenvolvimento na minha carreira de desenvolvedor, 
-onde nele vou aplicar tudo o que estou aprendendo ao longo desses anos de estudo!
+onde nele irei aplicar tudo o que estou aprendendo ao longo desses anos de estudo!
 
 Projeto com conceitos de SOLID - Design Patterns - Código Limpo - Injeção de dependencia
 
