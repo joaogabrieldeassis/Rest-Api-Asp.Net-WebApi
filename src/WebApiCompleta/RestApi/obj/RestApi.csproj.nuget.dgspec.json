@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\RestApi.csproj": {}
+    "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj": {}
   },
   "projects": {
-    "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj": {
+    "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj",
+        "projectUniqueName": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj",
         "projectName": "Dev.Bussines",
-        "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj",
+        "projectPath": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\obj\\",
+        "outputPath": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Data\\Dev.Data.csproj": {
+    "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Data\\Dev.Data.csproj",
+        "projectUniqueName": "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj",
         "projectName": "Dev.Data",
-        "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Data\\Dev.Data.csproj",
+        "projectPath": "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Data\\obj\\",
+        "outputPath": "C:\\Rest-WebApiComplete\\src\\Dev.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj": {
-                "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj"
+              "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj": {
+                "projectPath": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\RestApi.csproj": {
+    "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
+        "projectUniqueName": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
         "projectName": "RestApi",
-        "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
+        "projectPath": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\obj\\",
+        "outputPath": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -179,8 +179,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Data\\Dev.Data.csproj": {
-                "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Data\\Dev.Data.csproj"
+              "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj": {
+                "projectPath": "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj"
               }
             }
           }
@@ -214,6 +214,14 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

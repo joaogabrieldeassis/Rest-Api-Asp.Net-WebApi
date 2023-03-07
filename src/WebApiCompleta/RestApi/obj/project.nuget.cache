@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AgN6yE9Qy6SIp4JtcIQS1Pk40Yq2irgzXFjH4oHJZ8D9g/tgw7MPSa4xfb7lTuZH0Bpe5sVPtVlJMi3tY9CEig==",
+  "dgSpecHash": "NkBn04C53Ck9DqJhTn9KB5srp5oUThkawDZ2ZQp37ksOEGOfTT8TSTSS3nxZgB2Hiy0jjIEML/69YzBLDXPw0w==",
   "success": true,
-  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
+  "projectFilePath": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -16,6 +16,8 @@
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.4\\microsoft.aspnetcore.cryptography.keyderivation.6.0.4.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.4\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.4\\microsoft.aspnetcore.identity.ui.6.0.4.nupkg.sha512",
+    "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
