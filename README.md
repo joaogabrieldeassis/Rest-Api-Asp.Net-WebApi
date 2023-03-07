@@ -3,9 +3,9 @@ onde nele irei aplicar tudo o que estou aprendendo ao longo desses anos de estud
 
 Projeto com conceitos de SOLID - Design Patterns - Código Limpo - Injeção de dependencia
 
-Premissas:</br></br>
+Premissas:</br>
 2 - .Net Core 6</br>
-</br></br>
+</br>
 ASP.NET 6.0</br>
 ASP.NET WebApi Core with JWT Bearer Authentication</br>
 Entity Framework Core 6.0</br>
