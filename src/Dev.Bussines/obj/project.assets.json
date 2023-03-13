@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj",
+      "projectUniqueName": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj",
       "projectName": "Dev.Bussines",
-      "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\Dev.Bussines.csproj",
+      "projectPath": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\src\\Dev.Bussines\\obj\\",
+      "outputPath": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

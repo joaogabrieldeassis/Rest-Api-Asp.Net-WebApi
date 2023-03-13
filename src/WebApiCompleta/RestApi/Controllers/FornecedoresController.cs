@@ -11,7 +11,8 @@ using RestApi.Extensions;
 namespace RestApi.Controllers
 {
     [Authorize]
-    [Route("api/fornecedores")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/fornecedores")]
     public class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
@@ -33,7 +34,7 @@ namespace RestApi.Controllers
             _enderecoRepository = enderecoRepository;
             
         }
-        
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<FornecedorViewModel>> ObterTodosOsFornecedores()=> _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
 
