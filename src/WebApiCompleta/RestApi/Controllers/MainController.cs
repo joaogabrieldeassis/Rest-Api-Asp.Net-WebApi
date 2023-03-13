@@ -1,5 +1,6 @@
 using Dev.Bussines.Interfaces;
 using Dev.Bussines.Notificacoes;
+using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
@@ -9,12 +10,12 @@ namespace RestApi.Controllers
     public abstract class MainController : ControllerBase
     {
         private readonly INotificador _notificador;
-        public readonly IUSer _appUser;
+        public readonly IUser _appUser;
 
         public Guid UsuarioId { get; set; }
         public bool UsuarioAutenticado{ get; set; }
 
-        public MainController(IUSer appUser,INotificador notificador)
+        public MainController(IUser appUser,INotificador notificador)
         {
             _appUser = appUser;
             _notificador = notificador;

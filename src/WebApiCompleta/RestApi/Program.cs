@@ -39,7 +39,17 @@ builder.Services.AddDefaultIdentity<IdentityUser>()
 
 var appSettigns = builder.Configuration.GetSection("AppSettings");
 builder.Services.Configure<AppSettings>(appSettigns);
-
+builder.Services.AddApiVersioning(z =>
+{
+    z.AssumeDefaultVersionWhenUnspecified = true;
+    z.DefaultApiVersion = new ApiVersion(1, 0);
+    z.ReportApiVersions = true;
+});
+builder.Services.AddVersionedApiExplorer(z => 
+{
+    z.GroupNameFormat = "'v'VVV";
+    z.SubstituteApiVersionInUrl = true;
+});
 var appsSettings = appSettigns.Get<AppSettings>();
 var key = Encoding.ASCII.GetBytes(appsSettings.Secret);
 

@@ -2,6 +2,7 @@
 using Dev.AppMvc.ViewModels;
 using Dev.Bussines.Interfaces;
 using Dev.Bussines.Notificacoes;
+using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MinhaAp.Busines.Models;
@@ -23,7 +24,7 @@ namespace RestApi.Controllers
             IFornecedorService fornecedorService,
             INotificador notificador,
             IEnderecoRepository enderecoRepository,
-            IUSer appUser
+            IUser appUser
             ) :base(appUser,notificador)
         {
             _fornecedorRepository = fornecedorRepository;

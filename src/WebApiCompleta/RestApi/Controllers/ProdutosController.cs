@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Dev.AppMvc.ViewModels;
 using Dev.Bussines.Interfaces;
+using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -21,7 +22,7 @@ namespace RestApi.Controllers
         public ProdutosController(IProdutoRepository produtoRepository, 
             IProdutoService produtoService,
             IMapper mapper,
-            INotificador notificador,IUSer user):base(user, notificador )
+            INotificador notificador, IUser user):base(user, notificador )
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;

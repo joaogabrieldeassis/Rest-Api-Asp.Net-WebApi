@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2PBsru2Nu120TrWmRfHrtDcpfRv7NhdiaB9IOEReLDE=",
+  "Hash": "rM/N4wHhpv3HuU1ifjRyVDYhxUWq5DL/pz7W/foR5rA=",
   "Source": "RestApi",
   "BasePath": "_content/RestApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RestApi\\wwwroot",
       "Source": "RestApi",
-      "ContentRoot": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\wwwroot\\",
+      "ContentRoot": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\wwwroot\\",
       "BasePath": "_content/RestApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\wwwroot\\imagens\\280d5c0a-010b-41d9-a30a-13ed82aad171_codigo.jpg",
+      "Identity": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\wwwroot\\imagens\\280d5c0a-010b-41d9-a30a-13ed82aad171_codigo.jpg",
       "SourceId": "RestApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Rest-Api-Asp.Net-WebApi\\src\\WebApiCompleta\\RestApi\\wwwroot\\",
+      "ContentRoot": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\wwwroot\\",
       "BasePath": "_content/RestApi",
       "RelativePath": "imagens/280d5c0a-010b-41d9-a30a-13ed82aad171_codigo.jpg",
       "AssetKind": "All",
