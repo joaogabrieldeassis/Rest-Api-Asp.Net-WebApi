@@ -11,12 +11,13 @@ namespace RestApi.Controllers
     {
         private readonly INotificador _notificador;
         public readonly IUser _appUser;
-
+        private readonly ILogger _logger;
         public Guid UsuarioId { get; set; }
         public bool UsuarioAutenticado{ get; set; }
 
-        public MainController(IUser appUser,INotificador notificador)
+        public MainController(IUser appUser,INotificador notificador,ILogger<MainController>logger)
         {
+            _logger = logger;
             _appUser = appUser;
             _notificador = notificador;
 

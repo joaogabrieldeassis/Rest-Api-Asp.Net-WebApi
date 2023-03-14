@@ -11,7 +11,7 @@ using RestApi.Extensions;
 namespace RestApi.Controllers
 {
    [Authorize]
-   [Route("api/produtos")]
+   [Route("api/v{version:apiVersion}/produtos")]
     public class ProdutosController : MainController
     {
        
@@ -22,7 +22,7 @@ namespace RestApi.Controllers
         public ProdutosController(IProdutoRepository produtoRepository, 
             IProdutoService produtoService,
             IMapper mapper,
-            INotificador notificador, IUser user):base(user, notificador )
+            INotificador notificador, IUser user,ILogger<ProdutosController>logger):base(user, notificador,logger )
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;

@@ -12,19 +12,23 @@ using System.Text;
 
 namespace RestApi.Controllers
 {
-    [Route("api")]
+    [ApiVersion("2.0")]
+    [ApiVersion("1.0", Deprecated = true)]
+    [Route("api/v{version:apiVersion}")]
     public class AuthenticationController : MainController
     {
         /// <summary>
         /// ////////////
         /// </summary>
+        private readonly ILogger _logger;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly AppSettings _appSenttings;
         public AuthenticationController(INotificador notificador, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager
-            ,IOptions<AppSettings> appSenttings, IUser user
+            ,IOptions<AppSettings> appSenttings, IUser user,ILogger<AuthenticationController> logger
             ) : base(user,notificador)
-        {            
+        {
+            _logger = logger;
             _userManager = userManager;
             _signInManager = signInManager;
             _appSenttings = appSenttings.Value;
@@ -64,6 +68,7 @@ namespace RestApi.Controllers
 
             if (resultLoginUser.Succeeded)
             {
+                _logger.LogInformation($"usuario + {loginUser.Email}");
                 return CustomReponse(await GerarJwt(loginUser.Email));
             }
             else if (resultLoginUser.IsLockedOut)
