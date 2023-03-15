@@ -199,6 +199,10 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Elmah.Io.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.48, )"
+            },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
               "version": "[2.2.3, )"

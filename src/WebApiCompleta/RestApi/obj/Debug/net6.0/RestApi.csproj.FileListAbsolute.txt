@@ -197,3 +197,6 @@ C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\scopedcss\bun
 C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.csproj.CopyComplete
 C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\RestApi.genruntimeconfig.cache
 C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\obj\Debug\net6.0\ref\RestApi.dll
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Elmah.Io.AspNetCore.dll
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Elmah.Io.Client.dll
+C:\Rest-WebApiComplete\src\WebApiCompleta\RestApi\bin\Debug\net6.0\Newtonsoft.Json.dll

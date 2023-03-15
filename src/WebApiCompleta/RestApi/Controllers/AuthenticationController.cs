@@ -26,9 +26,9 @@ namespace RestApi.Controllers
         private readonly AppSettings _appSenttings;
         public AuthenticationController(INotificador notificador, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager
             ,IOptions<AppSettings> appSenttings, IUser user,ILogger<AuthenticationController> logger
-            ) : base(user,notificador)
+            ) : base(user,notificador,logger)
         {
-            _logger = logger;
+            
             _userManager = userManager;
             _signInManager = signInManager;
             _appSenttings = appSenttings.Value;

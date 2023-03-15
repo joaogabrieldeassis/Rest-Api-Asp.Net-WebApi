@@ -76,7 +76,7 @@ builder.Services.AddAuthentication(x =>
     };
 });
 
-
+builder.Services.AddLoggingConfiguration();
 
 builder.Services.Configure<ApiBehaviorOptions>(x => x.SuppressModelStateInvalidFilter = true);
 
@@ -102,7 +102,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseLoggingConfiguration();
 app.Run();
 static WebApplicationBuilder ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
 {
