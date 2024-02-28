@@ -1,0 +1,12 @@
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\bin\Debug\net8.0\RestApiV1.Infra.deps.json
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\bin\Debug\net8.0\RestApiV1.Infra.dll
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\bin\Debug\net8.0\RestApiV1.Infra.pdb
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.AssemblyInfoInputs.cache
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.AssemblyInfo.cs
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.csproj.CoreCompileInputs.cache
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.sourcelink.json
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.dll
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\refint\RestApiV1.Infra.dll
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\RestApiV1.Infra.pdb
+C:\Rest-Api-Asp.Net-WebApi\RestApiV1\RestApiV1.Infra\obj\Debug\net8.0\ref\RestApiV1.Infra.dll

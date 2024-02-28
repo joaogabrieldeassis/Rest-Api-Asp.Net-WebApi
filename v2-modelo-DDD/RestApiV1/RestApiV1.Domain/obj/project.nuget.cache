@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mo8Uu6FM1jy9ocno69jfGLL8A9AwvBQXjalO0X0rIuVaq+RnQARYO4d+DwyxLvS+8OswlxMpey/wpaMBYnVtsA==",
+  "success": true,
+  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Windows\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
