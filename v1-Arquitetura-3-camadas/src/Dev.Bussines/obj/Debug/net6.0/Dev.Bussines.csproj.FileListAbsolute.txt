@@ -34,3 +34,16 @@ C:\Rest-WebApiComplete\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.dll
 C:\Rest-WebApiComplete\src\Dev.Bussines\obj\Debug\net6.0\refint\Dev.Bussines.dll
 C:\Rest-WebApiComplete\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.pdb
 C:\Rest-WebApiComplete\src\Dev.Bussines\obj\Debug\net6.0\ref\Dev.Bussines.dll
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\bin\Debug\net6.0\Dev.Bussines.deps.json
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\bin\Debug\net6.0\Dev.Bussines.dll
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\bin\Debug\net6.0\Dev.Bussines.pdb
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.csproj.AssemblyReference.cache
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.AssemblyInfoInputs.cache
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.AssemblyInfo.cs
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.csproj.CoreCompileInputs.cache
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.sourcelink.json
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.dll
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\refint\Dev.Bussines.dll
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\Dev.Bussines.pdb
+C:\Rest-Api-Asp.Net-WebApi\v1-Arquitetura-3-camadas\src\Dev.Bussines\obj\Debug\net6.0\ref\Dev.Bussines.dll

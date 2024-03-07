@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9kgXcIaDI4WGRt4ZDns1Y+ycGWSCoVmqNn/cliZUwL3VhOTv/FYqXUlpcMch8n6grGetLd+QIg/cGV/jcOPS1g==",
+  "dgSpecHash": "yrTBTX1ibalLY4m99oXUyeBvzjTWm8k+14zf7w2hCWM1Fe3ASqH2Ttq/CDitZvdcUQNc35cMOUSH9+8jEHH45g==",
   "success": true,
-  "projectFilePath": "C:\\Rest-WebApiComplete\\src\\Dev.Bussines\\Dev.Bussines.csproj",
+  "projectFilePath": "C:\\Rest-Api-Asp.Net-WebApi\\v1-Arquitetura-3-camadas\\src\\Dev.Bussines\\Dev.Bussines.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Windows\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+    "C:\\Users\\Windows\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Windows\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Windows\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

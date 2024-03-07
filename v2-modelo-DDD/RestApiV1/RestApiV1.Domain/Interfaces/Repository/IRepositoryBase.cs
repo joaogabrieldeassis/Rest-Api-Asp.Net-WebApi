@@ -8,8 +8,8 @@ namespace RestApiV1.Domain.Interfaces.Repository
         Task AdicionarAsync(T entity);
         Task<T> ObterPorIdAsync(Guid id);
         Task AtualizarAsync(T entity);
-        Task<List<T>> ObterTodosAsync();
-        Task DeletarAsync(Guid id);
+        Task<IEnumerable<T>> ObterTodosAsync();
+        Task DeletarAsync(T entity);
         Task<IEnumerable<T>> BuscarAsync(Expression<Func<T, bool>> predicate);
         Task<int> SaveChangesAsync();
     }

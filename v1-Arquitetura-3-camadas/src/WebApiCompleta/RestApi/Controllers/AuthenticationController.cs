@@ -68,7 +68,6 @@ namespace RestApi.Controllers
 
             if (resultLoginUser.Succeeded)
             {
-                _logger.LogInformation($"usuario + {loginUser.Email}");
                 return CustomReponse(await GerarJwt(loginUser.Email));
             }
             else if (resultLoginUser.IsLockedOut)

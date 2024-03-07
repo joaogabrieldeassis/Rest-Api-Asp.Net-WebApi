@@ -5399,11 +5399,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9154,22 +9155,25 @@
   },
   "packageFolders": {
     "C:\\Users\\Windows\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
+      "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\v1-Arquitetura-3-camadas\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
       "projectName": "RestApi",
-      "projectPath": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
+      "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\v1-Arquitetura-3-camadas\\src\\WebApiCompleta\\RestApi\\RestApi.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Rest-WebApiComplete\\src\\WebApiCompleta\\RestApi\\obj\\",
+      "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\v1-Arquitetura-3-camadas\\src\\WebApiCompleta\\RestApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9177,14 +9181,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj": {
-              "projectPath": "C:\\Rest-WebApiComplete\\src\\Dev.Data\\Dev.Data.csproj"
+            "C:\\Rest-Api-Asp.Net-WebApi\\v1-Arquitetura-3-camadas\\src\\Dev.Data\\Dev.Data.csproj": {
+              "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\v1-Arquitetura-3-camadas\\src\\Dev.Data\\Dev.Data.csproj"
             }
           }
         }
@@ -9193,6 +9198,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -9267,6 +9275,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9275,7 +9301,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

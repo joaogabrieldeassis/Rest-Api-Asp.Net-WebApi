@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\RestApiV1.Api.props" />
-</Project>

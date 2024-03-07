@@ -1,12 +1,8 @@
-﻿using RestApiV1.Domain.Interfaces.Repository;
+﻿using RestApiV1.Domain.Interfaces.Notification;
+using RestApiV1.Domain.Interfaces.Repository;
 using RestApiV1.Domain.Interfaces.Services;
 using RestApiV1.Domain.Models;
 using RestApiV1.Domain.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RestApiV1.Domain.Service
 {
@@ -14,7 +10,8 @@ namespace RestApiV1.Domain.Service
     {
         private readonly IProdutoRepository _produtoRepository;
 
-        public ProdutoService(IProdutoRepository produtoRepository)
+        public ProdutoService(IProdutoRepository produtoRepository, INotificador notificador)
+            : base(notificador)
         {
             _produtoRepository = produtoRepository;
         }
@@ -32,12 +29,17 @@ namespace RestApiV1.Domain.Service
             if (!ExecutarValidacao(new ProdutoValidation(), entity))
                 return;
 
-                await _produtoRepository.AdicionarAsync(entity);
+            await _produtoRepository.AdicionarAsync(entity);
         }
 
         public async Task Remover(Guid id)
         {
-            await _produtoRepository.DeletarAsync(id);
+            var produto = await _produtoRepository.ObterPorIdAsync(id);
+
+            if (produto == null)
+                Notificar("Produto não encontrado");
+
+            await _produtoRepository.DeletarAsync(produto);
         }
 
         public void Dispose()

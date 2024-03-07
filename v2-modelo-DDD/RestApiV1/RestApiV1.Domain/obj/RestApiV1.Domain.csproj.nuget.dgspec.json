@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Rest-Api-Asp.Net-WebApi\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj": {}
+    "C:\\Rest-Api-Asp.Net-WebApi\\v2-modelo-DDD\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Rest-Api-Asp.Net-WebApi\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj": {
+    "C:\\Rest-Api-Asp.Net-WebApi\\v2-modelo-DDD\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj",
+        "projectUniqueName": "C:\\Rest-Api-Asp.Net-WebApi\\v2-modelo-DDD\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj",
         "projectName": "RestApiV1.Domain",
-        "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj",
+        "projectPath": "C:\\Rest-Api-Asp.Net-WebApi\\v2-modelo-DDD\\RestApiV1\\RestApiV1.Domain\\RestApiV1.Domain.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\RestApiV1\\RestApiV1.Domain\\obj\\",
+        "outputPath": "C:\\Rest-Api-Asp.Net-WebApi\\v2-modelo-DDD\\RestApiV1\\RestApiV1.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

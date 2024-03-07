@@ -9,7 +9,7 @@ using RestApi.Extensions;
 
 namespace RestApi.Controllers
 {
-    [Authorize]
+   // [Authorize]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/fornecedores")]
     public class FornecedoresController : MainController

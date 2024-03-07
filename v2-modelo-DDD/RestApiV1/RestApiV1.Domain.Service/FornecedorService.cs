@@ -1,4 +1,5 @@
-﻿using RestApiV1.Domain.Interfaces.Repository;
+﻿using RestApiV1.Domain.Interfaces.Notification;
+using RestApiV1.Domain.Interfaces.Repository;
 using RestApiV1.Domain.Interfaces.Services;
 using RestApiV1.Domain.Models;
 using RestApiV1.Domain.Validations;
@@ -9,7 +10,8 @@ namespace RestApiV1.Domain.Service
     {
         private readonly IFornecedorRepository _fornecedorRepository;
 
-        public FornecedorService(IFornecedorRepository fornecedorRepository)
+        public FornecedorService(IFornecedorRepository fornecedorRepository, INotificador notificador)
+            : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
         }
@@ -48,17 +50,17 @@ namespace RestApiV1.Domain.Service
         {
             var fornecedor = await _fornecedorRepository.ObterFornecedorProdutosEndereco(id);
 
-           if(!OhFornecedorEstaValidoParaAhRemocao(fornecedor))
+            if (!OhFornecedorEstaValidoParaAhRemocao(fornecedor))
                 return;
 
             var endereco = await _fornecedorRepository.ObterEnderecoPorFornecedor(id);
 
-            if(endereco != null)
+            if (endereco != null)
             {
                 await _fornecedorRepository.RemoverEnderecoDoFornecedor(endereco);
             }
 
-            await _fornecedorRepository.DeletarAsync(id);
+            await _fornecedorRepository.DeletarAsync(fornecedor);
         }
 
         public void Dispose()

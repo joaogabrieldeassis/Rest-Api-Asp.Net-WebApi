@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RestApiV1.Domain\RestApiV1.Domain.csproj" />
+    <ProjectReference Include="..\RestApiV1.Infra\RestApiV1.Infra.csproj" />
   </ItemGroup>
 
 </Project>

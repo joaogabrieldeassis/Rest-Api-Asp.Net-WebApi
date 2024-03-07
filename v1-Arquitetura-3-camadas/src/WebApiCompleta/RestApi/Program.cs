@@ -30,12 +30,20 @@ builder.Services.AddSwaggerGen();
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connection));
+
 builder.Services.AddDbContext<MeuDbContext>(x => x.UseSqlServer(connection));
 builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddRoles<IdentityRole>()
     .AddErrorDescriber<IdentityMesagePortugues>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+}));
 
 var appSettigns = builder.Configuration.GetSection("AppSettings");
 builder.Services.Configure<AppSettings>(appSettigns);
@@ -45,7 +53,7 @@ builder.Services.AddApiVersioning(z =>
     z.DefaultApiVersion = new ApiVersion(1, 0);
     z.ReportApiVersions = true;
 });
-builder.Services.AddVersionedApiExplorer(z => 
+builder.Services.AddVersionedApiExplorer(z =>
 {
     z.GroupNameFormat = "'v'VVV";
     z.SubstituteApiVersionInUrl = true;
@@ -96,6 +104,10 @@ else
 {
     app.UseHsts();
 }
+app.UseCors(builder => builder
+     .AllowAnyOrigin()
+     .AllowAnyMethod()
+     .AllowAnyHeader());
 
 app.UseHttpsRedirection();
 app.UseAuthentication();

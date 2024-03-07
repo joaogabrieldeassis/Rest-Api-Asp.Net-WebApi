@@ -1,11 +1,19 @@
+using RestApiV1.Api;
+using RestApiV1.Application.Configurations;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddDependencyInjectionConfiguration();
+ConfigurationProgram.ConfigurarStringDeConexecao(ref builder);
+
 
 var app = builder.Build();
 
